@@ -9,7 +9,7 @@ from helpers import SqlQueries
 
 default_args = {
     'owner': 'udacity',
-    'start_date': datetime(2025, 03, 11),
+    'start_date': datetime(2025, 3, 11),
     'depends_on_past': False,
     'email_on_retry': False,
     'retries': 3,
